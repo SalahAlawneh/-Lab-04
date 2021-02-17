@@ -3,7 +3,7 @@
   width: 30rem; */
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 4.6875rem 9.375rem 7.8125rem 7.8125rem 15.625rem 15.625rem 5rem;
+  grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
 }
 
 div {
@@ -76,17 +76,16 @@ div {
 }
 
 @media (min-width: 48rem) {
+ 
   .container-of-all {
     /* height: 65.9375rem;
-    width: 30rem; 
-    width: 100%;*/
     
-    margin: auto; 
+    width: 100%;*/
+    width: 100%; 
     display: grid;
-    grid-template-columns: 12.5rem 11.875rem 11.875rem 11.875rem 11.875rem;
-    grid-template-rows: 4.6875rem 7.8125rem 15.625rem 5rem;
+    grid-template-columns: 26% 25% 25% 24%;
+    grid-template-rows: 100px 200px 250px 150px;
   }
-  
 
   div {
     display: flex;
